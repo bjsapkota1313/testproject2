@@ -10,9 +10,9 @@ namespace WinFormsApp1
         private int number = 0;
         private void button1_Click(object sender, EventArgs e)
         {
-            number  ++;
+            number +=number;
             label1.Text=number.ToString();
-                
+                   
         }
     }
 }
