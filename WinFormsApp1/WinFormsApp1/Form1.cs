@@ -7,10 +7,10 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private int number = 100;
+        private int number = 0;
         private void button1_Click(object sender, EventArgs e)
         {
-            number  --;
+            number  ++;
             label1.Text=number.ToString();
                 
         }
