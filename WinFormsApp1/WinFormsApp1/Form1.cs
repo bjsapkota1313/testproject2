@@ -11,7 +11,7 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             number  -=number;
-            label1.Text=number.ToString();
+            lblCounter.Text=number.ToString();
                 
         }
     }
